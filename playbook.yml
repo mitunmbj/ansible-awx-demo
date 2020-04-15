@@ -4,5 +4,4 @@
   tasks:
     - name: Installs nginx web server
       apt: pkg=nginx state=latest update_cache=true
-      notify:
-        - start nginx
+      
