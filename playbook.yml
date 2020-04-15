@@ -1,5 +1,6 @@
 ---
 - hosts: 52.168.21.97
+  sudo: yes
   tasks:
     - name: Installs nginx web server
       apt: pkg=nginx state=latest update_cache=true
