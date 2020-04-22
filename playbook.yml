@@ -2,6 +2,12 @@
 - hosts: 52.168.21.97
   become: yes
   tasks:
+    - name: Package repo update
+      apt:
+        update-cache: yes
+    - name: Package upgrade
+      apt:
+        upgrade: yes
     - name: Installs nginx web server
       apt: pkg=nginx state=latest update_cache=true
       
