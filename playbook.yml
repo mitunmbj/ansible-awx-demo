@@ -1,5 +1,5 @@
 ---
-- hosts: 52.168.21.97
+- hosts: all
   become: yes
   tasks:
     - name: Package repo update
