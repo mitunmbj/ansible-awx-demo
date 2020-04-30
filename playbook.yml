@@ -8,6 +8,5 @@
     - name: Package upgrade
       apt:
         upgrade: yes
-    - name: Installs nginx web server
-      apt: pkg=nginx state=latest update_cache=true
+    
       
