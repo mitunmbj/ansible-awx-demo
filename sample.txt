@@ -1,1 +1,3 @@
-111
+access_key_id: AKIAJI2YBQ56G4ZPYURQ
+arn:aws:s3:::mybucket
+AKIAJI2YBQ56G4ZPYURQ
